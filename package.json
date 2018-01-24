@@ -43,6 +43,7 @@
     "gulp-develop-server": "^0.4.2",
     "gulp-git": "~0.5.3",
     "gulp-insert": "^0.5.0",
+    "gulp-install": "^1.1.0",
     "gulp-istanbul": "^0.10.1",
     "gulp-jshint": "^1.10.0",
     "gulp-load-plugins": "^0.9.0",
@@ -76,14 +77,14 @@
     "webpack": "^1.13.2"
   },
   "dependencies": {
-    "urijs": "1.18.4",
     "axios": "^0.12.0",
     "bluebird": "^3.1.5",
     "es6-promise": "^3.0.2",
     "event-source-polyfill": "0.0.7",
     "eventsource": "^0.2.1",
     "lodash": "^4.0.1",
-    "stellar-base": "^0.7.6",
-    "toml": "^2.3.0"
+    "stellar-base": "git+https://github.com/RomanTkachenkoDistr/js-base.git",
+    "toml": "^2.3.0",
+    "urijs": "1.18.4"
   }
 }
